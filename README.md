@@ -22,7 +22,7 @@ UserDaoCustom是自定义的操作持久层的接口，其实现类是 UserDaoIm
 ###运行构建项目:
 - 使用jetty插件运行: `clean jetty:run -e`
 - 创建项目骨架: `clean archetype:create-from-project`
-> intellij 截图:
+* intellij 截图:
 ![创建项目骨架 maven build](https://github.com/luowei/web-app/blob/master/doc/img/archetype.png)
 
 

@@ -9,7 +9,7 @@
 3. 也有对spring jdbctemplate的应用;
 
 
-在*com.common.dao*中，UserDao的实现是用spring data jpa来完成;
+在`com.common.dao`中，UserDao的实现是用spring data jpa来完成;
 custom子包中BaseDao是基础接口， 其实现类是 BaseDaoImpl 继承了 JdbcDaoSupport;
 UserDaoCustom是自定义的操作持久层的接口，其实现类是 UserDaoImpl 是BaseDaoImpl的子类，从而可以方便的使用jdbcTemplate;
 
@@ -22,6 +22,9 @@ UserDaoCustom是自定义的操作持久层的接口，其实现类是 UserDaoIm
 ###运行构建项目:
 - 使用jetty插件运行: `clean jetty:run -e`
 - 创建项目骨架: `clean archetype:create-from-project`
+> intellij 截图:
+![创建项目骨架 maven build](https://github.com/luowei/web-app/blob/master/doc/img/web-app_archetype.png)
+
 
 
 ###把骨架安装到本地仓库:
@@ -32,6 +35,10 @@ UserDaoCustom是自定义的操作持久层的接口，其实现类是 UserDaoIm
 ###把骨架发布到本地仓库:
  * 方法一:`clean deploy`
  * 方法二:手动上传archetype目录里的pom.xml 与 archetype/target下的web-app-archetype-1.0-RELEASE.jar
+
+
+
+ [我的博客](http://blog.163.com/luowei505050@126):http://blog.163.com/luowei505050@126
 
 
 

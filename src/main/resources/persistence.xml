@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="user.persistence.unit">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>com.common.domain.User</class>
+        <properties>
+            <property name="generateDdl" value="true" />
+            <property name="databasePlatform" value="${hibernate.dialect}" />
+
+            <property name="hbm2ddl.auto" value="${hibernate.hbm2ddl.auto}"/>
+            <property name="hibernate.show_sql" value="${hibernate.show_sql}"/>
+            <property name="hibernate.format_sql" value="${hibernate.format_sql}"/>
+        </properties>
+    </persistence-unit>
+</persistence>

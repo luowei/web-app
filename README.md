@@ -38,9 +38,9 @@ UserDaoCustom是自定义的操作持久层的接口，其实现类是 UserDaoIm
 
 
 
- [我的博客](http://blog.163.com/luowei505050@126):http://blog.163.com/luowei505050@126
+- 我的博客](http://blog.163.com/luowei505050@126):http://blog.163.com/luowei505050@126
 
-
+create with help of : [prose](http://prose.io):http://prose.io
 
 
 
